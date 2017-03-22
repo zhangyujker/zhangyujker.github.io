@@ -1,0 +1,281 @@
+body{
+
+    background-color: linen;;
+}
+main .nav{
+    display: flex;
+    justify-content: space-between;
+}
+#home{
+    padding-top: 30px;
+}
+.cearchbox{
+    background-color: white;
+}
+.cearchbox img{
+    margin: 0px 5px 0px 5px;
+    height: 2em;
+}
+/*底部导航条*/
+/*底部导航条图标设置*/
+.nav li{
+    text-align: center;
+}
+.nav li a{
+    padding: 2px 20px;
+}
+.cearchbox input{
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 60%;
+    /*background: rgba(0, 0, 0, 0);*/
+}
+.dibukongbai{
+    
+    height: 50px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.items a{
+    padding: 5px;
+}
+.items a img{
+    width: 100%;
+    height: auto;
+}
+.menuiphone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menuiphone .menu{
+    width: 49%;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: white;
+
+}
+.menuiphone .menu a{
+    text-decoration:none;
+}
+.menuiphone .menu img{
+    width: 100%;
+    height: auto;
+}
+.menuiphone .menu p{
+    font-size: 12px;
+    color: lightgray;
+    line-height: 1em;
+}
+.menuiphone .menu span{
+    color: red;
+    font-size: 20px;
+     line-height: 1rem;
+}
+/*分类部分*/
+/*顶部的商品搜索DIV*/
+.classifybtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightyellow;
+}
+.classifybtn button{
+    width: 2em;
+    height: 2em;
+    border: none;
+     background: rgba(0, 0, 0, 0);
+}
+/*A标签的页面内跳转*/
+.lable{
+    background-color: white;
+    width: 1000px;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+.lable a{
+    text-decoration:none;
+    color:black;
+    margin-left: 15px;
+}
+.lable a:hover{
+    color: goldenrod;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+/*手机手机卡部分*/
+.iphone{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 5px;
+}
+.iphone h4{
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+.iphone .item{
+    width: 5em;
+    height: auto;
+    margin: 5px;
+  
+}
+.iphone .item img{
+    width: 5em;
+    height: auto;
+}
+.iphone .item p{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+}
+/*服务部分*/
+/*登录或者注册*/
+.denglu{
+    background-color: goldenrod;
+}
+.denglu span{
+    font-size: 1em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px 15px 10px 15px;
+}
+.dingdan{
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    line-height: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+/*订单的图标样式*/
+.dingdanitem{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+}
+.dingdanitem span{
+    line-height: 2em;
+    font-size: 1.5em;
+}
+.youhui{
+    margin-top: 5px;
+    background-color: white;
+    line-height: 2em;
+    padding: 5px 10px 5px 15px;
+}
+.youhui span{
+    text-align: center;
+    width: 2em;
+    height: 2em;
+}
+.youhui span:nth-child(2){
+    float: right;
+    padding-top: 10px;
+}
+a{
+    text-decoration:none;
+}
+/*购物车部分*/
+/*惊叹号图标*/
+.jingtan{
+    text-align: center;
+    margin: 20px;
+}
+.jingtan span{
+   font-size: 100px;
+}
+/*全部商品OR精品商品*/
+.shangpinbtn{
+    display: flex;
+    justify-content: center;
+}
+.shangpinbtn button{
+    background-color: white;
+    border: none;
+    width: 8em;
+    height: 3em;
+}
+.shangpinbtn button:hover{
+    background-color: lightcoral;
+}
+
+.title{
+    text-align: center;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+.zhuyao div{
+    display: flex;
+    flex-direction: column;
+}
+.zhuyao{
+    /*margin-bottom: 50px;*/
+}
+.zhuyao div img{
+    width: 100%;
+    border: 2px solid lightcyan;
+    padding: 10px;
+    margin: 20px 10px 20px 10px ;
+    background-color: white;
+}
+.zhuyao .left{
+
+}
+.zhuyao .right{
+    padding-top: 70px;
+}
+.zhuyao .tc-1{
+    position: relative;
+}
+.zhuyao .tc-1 .logo{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: calc(100% + 5px);
+    top: 30%;
+}
+.zhuyao .tc-2{
+    position: relative;
+}
+.zhuyao .tc-2 .logo-1{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left:-10px;
+    top: 30%;
+}
+.yejiao{
+    text-align: center;
+}
+a{
+   text-decoration:none;
+}
+
